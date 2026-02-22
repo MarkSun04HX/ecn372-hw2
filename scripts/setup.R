@@ -1,5 +1,5 @@
 # Setup: packages and project paths (run from project root)
-PROJECT_ROOT <- getwd() 
+PROJECT_ROOT <- getwd()  
 
 required <- c("readr", "dplyr", "caret")
 missing <- required[!sapply(required, requireNamespace, quietly = TRUE)]
