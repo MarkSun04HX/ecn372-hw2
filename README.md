@@ -17,6 +17,8 @@ Or in R: `install.packages(c("readr","dplyr","caret"))`
 
 From the project root:
 
+Please make sure that the test.csv is stored in the data/raw folder
+
 ```bash
 make train    # Train model on train.csv (run first)
 make evaluate # Test on data/raw/test.csv, print MSE and RMSE
