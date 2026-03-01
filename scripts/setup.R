@@ -40,7 +40,7 @@ library(caret)
 # MODEL_PATH: Full file path for RDS model file
 # ------------------------------------------------------------
 TRAIN_PATH  <- file.path(PROJECT_ROOT, "train.csv")
-TEST_PATH   <- file.path(PROJECT_ROOT, "data", "raw", "test.csv")
+TEST_PATH   <- file.path(PROJECT_ROOT, "test.csv")
 MODELS_DIR  <- file.path(PROJECT_ROOT, "models")
 MODEL_PATH  <- file.path(MODELS_DIR, "models.rds")
 
