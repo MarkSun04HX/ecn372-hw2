@@ -17,7 +17,7 @@ Or in R: `install.packages(c("readr","dplyr","caret"))`
 
 From the project root:
 
-Please make sure that the test.csv is stored in the data/raw folder
+Please make sure that the test.csv is stored outside of all the folders and placed individually
 
 ```bash
 make train    # Train model on train.csv (run first)
