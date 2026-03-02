@@ -2,12 +2,12 @@
 
 ECN 372 Homework 2: Predict article popularity (`shares`) on the Online News Popularity dataset.
 
-## Environment
+## Environment 
 
 - **R** (tested with R ≥ 4.0)
 - **R packages:** `readr`, `dplyr`, `caret`
 
-Install packages (run once):
+Install packages (run once): 
 ```bash
 make install
 ```
